@@ -1,0 +1,65 @@
+﻿# 
+StringFormat_1:
+  namespace: System
+  className: String
+  member: method
+  name: Format
+  argTypes: (IFormatProvider, System.String, params System.Object[])
+  taintFromArguments: 1,2
+
+StringFormat_2:
+  namespace: System
+  className: String
+  member: method
+  name: Format
+  argTypes: (IFormatProvider, System.String, System.Object)
+  taintFromArguments: 1,2
+
+StringFormat_3:
+  namespace: System
+  className: String
+  member: method
+  name: Format
+  argTypes: (IFormatProvider, System.String, System.Object, System.Object)
+  taintFromArguments: 1,2,3
+
+StringFormat_4:
+  namespace: System
+  className: String
+  member: method
+  name: Format
+  argTypes: (IFormatProvider, System.String, System.Object, System.Object, System.Object)
+  taintFromArguments: 1,2,3,4
+
+StringFormat_5:
+  namespace: System
+  className: String
+  member: method
+  name: Format
+  argTypes: (System.String, params System.Object[])
+  taintFromArguments: 0,1
+
+StringFormat_6:
+  namespace: System
+  className: String
+  member: method
+  name: Format
+  argTypes: (System.String, System.Object)
+  taintFromArguments: 0,1
+
+StringFormat_7:
+  namespace: System
+  className: String
+  member: method
+  name: Format
+  argTypes: (System.String, System.Object, System.Object)
+  taintFromArguments: 0,1,2
+
+StringFormat_8:
+  namespace: System
+  className: String
+  member: method
+  name: Format
+  argTypes: (System.String, System.Object, System.Object, object)
+  taintFromArguments: 0,1,2,3
+
